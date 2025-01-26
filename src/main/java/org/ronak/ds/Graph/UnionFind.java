@@ -21,19 +21,6 @@ public class UnionFind {
     }
 
     /**
-     * Constructor to initialize UnionFind with 'm' elements in a 2D matrix.
-     *
-     * @param m number of rows
-     * @param n number of columns (not used)
-     */
-    public UnionFind(int m, int n) {
-        root = new int[m];
-        for (int i = 0; i < m; i++) {
-            root[i] = i;
-        }
-    }
-
-    /**
      * Main method for testing.
      *
      * @param args command line arguments (not used)
